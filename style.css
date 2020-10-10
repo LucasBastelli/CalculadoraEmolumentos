@@ -139,6 +139,10 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 45px;
+    var fixed = document.querySelector(".fixed"),
+    distanceFromTop = fixed.getBoundingClientRect().top;
+    fixed.style.top = distanceFromTop + 'px';
+    fixed.style.bottom = 'auto';
 }
 #texto {
     color:rgb(255, 255, 255);

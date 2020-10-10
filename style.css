@@ -184,7 +184,6 @@ footer {
     footer {
         clear: both;
         position: absolute;
-        bottom: 0;
         width: 100%;
         font-size: 35px;
         text-align: center;

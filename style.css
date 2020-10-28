@@ -149,7 +149,12 @@ body {
     height: 35px;
 }
 @media screen and (max-width: 480px) {
-
+    html{
+        overflow:auto;
+    }
+    .scrollable {
+        position:inherit;
+    }
     #entrada {
         width: 100%;
         font-size: 30px;
@@ -158,6 +163,12 @@ body {
         text-align: center;
         text-shadow: 1px 1px 1px black;
         padding-bottom: 10px;
+    }
+    body {
+        background-image: url("fundo.png");
+        background-size: 100%;
+        overflow: auto;
+    
     }
     #dir {
         clear: both;

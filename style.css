@@ -183,7 +183,7 @@ footer {
     }
     footer {
         clear: both;
-        position: absolute;
+        float : left;
         bottom: 0;
         width: 100%;
         font-size: 35px;

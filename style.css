@@ -21,7 +21,8 @@ header {
 
 body {
     background-image: url("fundo.png");
-    background-size: 100%;
+    background-size: cover;
+    overflow: auto;
 }
 #valor {
     clear: both;

@@ -191,10 +191,11 @@ body {
     }
     #rodape {
         clear: both;
-        float:left;
-        height: 20%;
+        margin-top: 5%;
         width: 100%;
+        height: 20%;
         font-size: 35px;
+        float:left;
         text-align: center;
     }
     #insImg {

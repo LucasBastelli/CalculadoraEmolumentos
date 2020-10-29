@@ -158,6 +158,7 @@ body {
         height:100%;
     }
     #entrada {
+        height: 20%;
         width: 100%;
         font-size: 30px;
         float: none;
@@ -169,7 +170,7 @@ body {
     #dir {
         clear: both;
         width: 100%;
-        height: 25%;
+        height: 20%;
         margin-top: 5%;
         float: left;
     }
@@ -177,7 +178,7 @@ body {
         clear: both;
         margin-top: 5%;
         width: 100%;
-        height: 25%;
+        height: 20%;
         float: left;
     }
     #cen {
@@ -185,13 +186,13 @@ body {
         margin-top: 5%;
         margin:0%;
         width: 100%;
-        height: 25%;
+        height: 20%;
         float: left;
     }
     #rodape {
         clear: both;
         float:left;
-        height: 25%;
+        height: 20%;
         width: 100%;
         font-size: 35px;
         text-align: center;

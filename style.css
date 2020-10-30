@@ -134,9 +134,9 @@ body {
     width: 50%;
 }
 
-footer {
+#rodape {
     clear: both;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     font-size: 45px;
@@ -150,13 +150,11 @@ footer {
     height: 35px;
 }
 @media screen and (max-width: 480px) {
-    var footer = $(".footer");
-    footer.css({ "top": footer.position().top, "bottom": "auto"});
+
     body {
         background-image: url("fundo.png");
         background-size: cover;
-        min-height:100%;
-        height:100%;
+        overflow: auto;
     }
     #entrada {
         width: 100%;
@@ -170,6 +168,7 @@ footer {
     #dir {
         clear: both;
         width: 100%;
+        height: 25%;
         margin-top: 5%;
         float: left;
     }
@@ -177,6 +176,7 @@ footer {
         clear: both;
         margin-top: 5%;
         width: 100%;
+        height: 25%;
         float: left;
     }
     #cen {
@@ -184,13 +184,15 @@ footer {
         margin-top: 5%;
         margin:0%;
         width: 100%;
+        height: 25%;
         float: left;
     }
-    footer {
+    #rodape {
         clear: both;
+        float:left;
+        margin-bottom: 0;
         width: 100%;
         font-size: 35px;
-        float:left;
         text-align: center;
     }
     #insImg {
@@ -283,5 +285,4 @@ footer {
         text-shadow: 1px 1px 1px black;
 
     }
-    
 }
